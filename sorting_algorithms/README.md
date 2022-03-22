@@ -167,7 +167,7 @@ Write in the file `0-O`, the big O notations of the time complexity of the Bubbl
 -	in the worst case
 
 ```
-alex@/tmp/sort$ cat 0-main.c 
+alex@/tmp/sort$ cat 0-main.c
 #include <stdio.h>
 #include <stdlib.h>
 #include "sort.h"
@@ -371,7 +371,7 @@ int main(void)
     print_array(array, n);
     return (0);
 }
-alex@/tmp/sort$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89 
+alex@/tmp/sort$ gcc -Wall -Wextra -Werror -pedantic  -std=gnu89
 2-main.c 2-selection_sort.c print_array.c -o select
 alex@/tmp/sort$ ./select
 19, 48, 99, 71, 13, 52, 96, 73, 86, 7

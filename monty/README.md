@@ -1,8 +1,6 @@
 0x19. C - Stacks, Queues - LIFO, FIFO
 =====================================
 
--   By Julien Barbier
-
 #### In a nutshell...
 
 ![](https://pbs.twimg.com/media/CFYYWy6UEAE9Ow-.png)
@@ -117,7 +115,7 @@ Monty 0.98 is a scripting language that is first compiled into Monty byte codes 
 
 **Monty byte code files**
 
-Files containing Monty byte codes usually have the `.m` extension. Most of the industry uses this standardbut it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument:
+Files containing Monty byte codes usually have the `.m` extension. Most of the industry uses this standard but it is not required by the specification of the language. There is not more than one instruction per line. There can be any number of spaces before or after the opcode and its argument:
 
 ```
 julien@ubuntu:~/monty$ cat -e bytecodes/000.m
@@ -173,11 +171,6 @@ julien@ubuntu:~/monty$
     -   an error occured
 -   If you can't malloc anymore, print the error message `Error: malloc failed`, followed by a new line, and exit with status `EXIT_FAILURE`.
 -   You have to use `malloc` and `free` and are not allowed to use any other function from `man malloc` (realloc, calloc, ...)
-
-Quiz questions
---------------
-
-Show
 
 Tasks
 -----
@@ -390,6 +383,3 @@ The opcode `nop` doesn't do anything.
 
 -   Usage: `nop`
 
-**Repo:**
-
--   GitHub repository: `monty` 
