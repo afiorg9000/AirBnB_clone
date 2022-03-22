@@ -1,8 +1,3 @@
-<<<<<<< HEAD
-# AirBnB_clone
-# AirBnB_clone
-# AirBnB_clone
-=======
 0x00. AirBnB clone - The console
 ================================
 
@@ -237,4 +232,3 @@ hbnb) User.all()
 |[review.py](./models/engine/review.py)|Review Class| Inherits from BaseModel and contains specific public attributes
 |[state.py](./models/engine/state.py)|State Class| Inherits from BaseModel and contains specific public attributes
 |[user.py](./models/engine/user.py)|User Class| Inherits from BaseModel and contains specific public attributes
->>>>>>> 837a0082eb0f83d23c1fca464c4fc87435ccf780
